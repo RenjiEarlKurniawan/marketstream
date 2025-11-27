@@ -8,6 +8,7 @@ public class MarketStreamWebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MarketStreamWebApplication.class, args);
+        System.out.println("Welcome");
 	}
 
 }
