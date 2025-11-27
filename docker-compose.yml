@@ -8,7 +8,7 @@ services:
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/ecommerce
       - SPRING_DATASOURCE_USERNAME=ecommerce_user
-      - SPRING_DATASOURCE_PASSWORD=passworduntudkecommerce1234)(*
+      - SPRING_DATASOURCE_PASSWORD=password123
     depends_on:
       - db
 
@@ -25,7 +25,7 @@ services:
     environment:
       - POSTGRES_DB=ecommerce
       - POSTGRES_USER=ecommerce_user
-      - POSTGRES_PASSWORD=passworduntudkecommerce1234)(*
+      - POSTGRES_PASSWORD=password123
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
